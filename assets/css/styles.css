@@ -1,0 +1,148 @@
+body {
+    font-family: 'Ubuntu', 'Arial', 'sans';
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#banner {
+    display: block;
+    text-decoration: none;
+    color: rgb(29, 119, 194);
+    padding: 12px 0 0;
+    text-align: center;
+}
+
+.control {
+    position: absolute;
+    background-color: #f8f8f8;
+    top: 10px;
+    width: 190px;
+    box-shadow: 0 0 32px rgba(0,0,0,0.5);
+    overflow: hidden;
+    text-align: left;
+    border-radius: 5px;
+}
+
+
+.control.left {
+    left: 20px;
+    padding-left: 5px;
+    top: 10px;
+}
+
+.control.right {
+    right: 20px;
+    padding-left: 5px;
+    top: 10px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    height:20px;   /* Height of the footer */
+    width: 100%;
+    text-align: center;
+    background:#aaa;
+    opacity: 0.5;
+}
+
+
+hr {
+    margin: 12px 0 0;
+    padding: 0;
+    border: none;
+    height: 1px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+label {
+    font-size: 13px;
+    color: #aaa;
+    padding: 12px 4px 0 4px;
+}
+
+#container {
+    display: none;
+    margin: 20px auto;
+    width: 300px;
+}
+
+
+#download,#print,#select_image {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: none;
+    color: #555;
+    background-color: #ddd;
+    margin: 4px;
+    padding: 8px 0;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+#select_image:hover, #download:hover {
+    background-color: #1D89AA;
+    color: #ffffff;
+}
+#support_img{
+    position: relative;
+    text-align: center;
+    margin-left: 35px;
+}
+
+#layout{
+    position: relative;
+    margin-left: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #666660;
+    border: 1px;
+    border-radius: 5px;
+    /*box-shadow: 0 9px #999;*/
+  }
+  
+  .button:hover {background-color: #1D89AA}
+  
+  .button:active {
+    background-color: #1D89AA;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+#image_list{
+  
+    overflow-y: auto;
+    width: 190px;
+    height: 400px;
+}
+  
+.select_image{
+    width: 150px;    
+}
+
+  .select_image img{     
+    margin-top: 3px;
+    margin-left: 3px;
+    border: 1px;
+    border-radius: 5px;     
+  }
+
+  .select_image:hover{
+    cursor: pointer;
+    background-color: #aaa;
+    
+  }
+
+  
